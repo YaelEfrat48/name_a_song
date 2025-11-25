@@ -42,48 +42,5 @@ name_a_song/
 
 3. Displays a random word pair when you click "New Word"
 
-## 💻 Local Development
-
-1. Clone the repository:
-```bash
-git clone https://github.com/YaelEfrat48/name_a_song.git
-cd name_a_song
-```
-
-2. Open `index.html` in your browser:
-```bash
-# Windows
-start index.html
-
-# Mac
-open index.html
-
-# Linux
-xdg-open index.html
-```
-
-That's it! No build process or dependencies needed.
-
-## 🌐 Deployment
-
-This project is deployed using **GitHub Pages**:
-1. Push code to the `main` branch
-2. GitHub Pages automatically builds and deploys
-3. Changes go live in ~1 minute
-
-## 📝 License
-
-MIT License - Feel free to use this project for learning or inspiration!
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## 👤 Author
-
-**Yael Efrat**
-- GitHub: [@YaelEfrat48](https://github.com/YaelEfrat48)
-
----
 
 ⭐ Star this repo if you found it helpful!
