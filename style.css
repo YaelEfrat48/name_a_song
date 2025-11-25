@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.flashcard {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.word-section {
+    flex: 1;
+}
+
+.word-section h2 {
+    color: #667eea;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.word {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    width: 2px;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, #667eea, transparent);
+}
+
+.btn {
+    background: white;
+    color: #667eea;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    background: #f8f9ff;
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .flashcard {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+    
+    .divider {
+        width: 100px;
+        height: 2px;
+        background: linear-gradient(to right, transparent, #667eea, transparent);
+    }
+    
+    .word {
+        font-size: 1.5rem;
+        min-height: 60px;
+    }
+}
